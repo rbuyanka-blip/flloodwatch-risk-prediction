@@ -1,0 +1,32 @@
+{
+  "selected_model": "Random Forest (leaf=50, mf=sqrt)",
+  "test_roc_auc": 0.8908225546984556,
+  "test_pr_auc": 0.12233556458173935,
+  "test_event_rate": 0.0056915499101054265,
+  "alert_table": [
+    {
+      "alert": "Moderate or above (early-warning)",
+      "threshold": 0.0152,
+      "precision": 0.03565790695514904,
+      "recall": 0.7177570093457943,
+      "F1": 0.06794055201698514,
+      "events_caught": "384/535",
+      "false_alarms": 10385,
+      "share_of_hours_flagged": 0.11456504856434643
+    },
+    {
+      "alert": "High (alert)",
+      "threshold": 0.0637,
+      "precision": 0.0814712959779993,
+      "recall": 0.44299065420560746,
+      "F1": 0.13763066202090593,
+      "events_caught": "237/535",
+      "false_alarms": 2672,
+      "share_of_hours_flagged": 0.030947137735507824
+    }
+  ],
+  "thresholds": {
+    "moderate": 0.015198456531165302,
+    "high": 0.06372753481382312
+  }
+}
